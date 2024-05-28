@@ -1,5 +1,5 @@
 {
-  "name": "better-streaming-dashboard",
+  "name": "dashboard-demon",
   "version": "0.1.0",
   "description": "A unified streaming dashboard",
   "main": ".webpack/main",
