@@ -16,19 +16,20 @@
 
   "extends": [
     "plugin:@typescript-eslint/recommended",
-    "plugin:react/recommended",
-    "eslint:recommended",
-    "prettier",
     "plugin:import/typescript",
+    "plugin:react/recommended",
     "plugin:import/warnings",
     "plugin:import/errors",
+    "eslint:recommended",
     "prettier"
   ],
 
   "ignorePatterns": [".html"],
 
   "rules": {
-    "@typescript-eslint/no-unused-vars": "off" // Turn off duplicate error
+    "@typescript-eslint/no-explicit-any": "warn",
+    "@typescript-eslint/no-unused-vars": "error",
+    "no-unused-vars": "off" // Turn off duplicate error
   },
 
   "settings": {
